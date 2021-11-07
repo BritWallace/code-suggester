@@ -13,7 +13,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(149, 149, 167)
 }
-.form-control {
+.form-control {/*the answers on the form*/
   color: rgb(90, 56, 121)
 }
 .form-group {
@@ -22,18 +22,17 @@ body {
 .btn{
   color: rgb(19, 19, 62);
   text-shadow: aquamarine;
-  border-bottom: 25px;
-  background-color: 
+  border-bottom: 25px; 
 }
 container {
   border-radius: 25px;
   padding: 25;
 }
-#formOne {
+#formOne { /*Form one is the form itself */
   border-radius: 25px;
   padding: 50px;
 }
-#results{ 
+#results { 
   display: none;
   text-align: center;
   padding: .5em;
