@@ -1,0 +1,11 @@
+img {
+  width: 300px;
+  border-radius: 5px;
+  float: left;
+}
+h1 {
+  color: rgb(51, 123, 123)
+}
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
