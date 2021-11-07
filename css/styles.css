@@ -9,3 +9,10 @@ h1 {
 body {
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+.form-control {
+  color: rgb(90, 56, 121)
+}
+.form-group {
+  color: rgb(93, 76, 45)
+}
+
