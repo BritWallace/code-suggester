@@ -16,7 +16,7 @@ body {
 .form-control {/*the answers on the form*/
   color: rgb(90, 56, 121)
 }
-.form-group {
+.form-group {/*text questions*/
   color: rgb(93, 76, 45)
 }
 .btn{
@@ -30,12 +30,15 @@ container {
 }
 #formOne { /*Form one is the form itself */
   border-radius: 25px;
-  padding: 50px;
+  padding: 100px;
 }
 #results { 
   display: none;
   text-align: center;
   padding: .5em;
+  float:var(zodiac);
+  position: relative;
+  bottom: 150px
 }
 
 

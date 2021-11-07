@@ -1,4 +1,4 @@
-# _Language Suggester_
+# _Code Suggester_
 
 #### By _**Brit Wallace**_
 

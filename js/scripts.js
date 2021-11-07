@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#formOne").submit(function(event) {
+  $("#formOne").click(function(event) {
     $("#results").show();
     event.preventDefault();
     const zodiac = $("input:button[name=zodiac]:checked").val();
