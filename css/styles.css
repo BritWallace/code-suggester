@@ -1,18 +1,34 @@
 img {
   width: 300px;
-  border-radius: 5px;
+  border-radius: 50%;
   float: left;
+  padding: 2em
 }
 h1 {
   color: rgb(51, 123, 123)
 }
 body {
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(149, 149, 167)
 }
 .form-control {
   color: rgb(90, 56, 121)
 }
 .form-group {
   color: rgb(93, 76, 45)
+}
+.btn{
+  color: rgb(19, 19, 62);
+  text-shadow: aquamarine;
+  border-bottom: 25px;
+  background-color: 
+}
+container {
+  border-radius: 25px;
+  padding: 25;
+}
+#formOne {
+  border-radius: 25px;
+  padding: 50px;
 }
 
