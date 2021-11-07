@@ -1,4 +1,6 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
-    $("#story").show();
+    $("#results").show();
     event.preventDefault();
+  });
+});

@@ -5,7 +5,9 @@ img {
   padding: 2em
 }
 h1 {
-  color: rgb(51, 123, 123)
+  color: rgb(145, 184, 184);
+  font-size: 25pt;
+  text-shadow: 5px 5px 5px black;
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -31,4 +33,10 @@ container {
   border-radius: 25px;
   padding: 50px;
 }
+#results{ 
+  display: none;
+  text-align: center;
+  padding: .5em;
+}
+
 
