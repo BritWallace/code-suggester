@@ -1,7 +1,7 @@
 img {
   width: 300px;
   border-radius: 50%;
-  float: left;
+  float: right;
   padding: 2em
 }
 h1 {
@@ -32,7 +32,7 @@ container {
   border-radius: 25px;
   padding: 100px;
 }
-#results { 
+.results { 
   display: none;
   text-align: center;
   padding: .5em;
@@ -41,4 +41,12 @@ container {
   bottom: 150px
 }
 
-
+.javascript {
+  display: none;
+}
+.ruby {
+  display: none;
+}
+.python {
+  display: none;
+}

@@ -22,9 +22,9 @@ This is an Epicodus student project that showcases what I have learned using Jav
 
 ## Known Bugs
 
-* Having trouble linking the if/else response with the submit event.  
-*  My first question is floating in an unwanted behavior.
-*  I don't love that you need to scroll down for results.
+* Having trouble linking the if/else response with the submit event. 
+* Only Gemini works. 
+* My first question is floating in an unwanted behavior.
 
 ## License
 
