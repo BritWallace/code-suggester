@@ -7,10 +7,10 @@ $(document).ready(function() {
     const zodiac = $("#zodiac").val();
     console.log("zodiac", zodiac)
       let results = zodiac;
-      if (zodiac.includes("Gemini" || zodiac.includes("Cancer"))) {
+      if (zodiac.includes("Gemini" && "Cancer")) {
         console.log("Gemini")
         $(".javascript").toggle();
-      } else if (zodiac.includes("Aquarius")) {
+      } else if (zodiac.includes("Aquarius" && "Pisces")) {
         console.log("Aquarius")
         $(".python").toggle();
       } else if (zodiac.includes("Libra")) {
