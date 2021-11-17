@@ -3,21 +3,26 @@ $(document).ready(function() {
   $("#formOne").submit(function(event) {
     $(".results").show();
     event.preventDefault();
-    //const zodiac = $("#zodiac").val();
-    const zodiac = ['Gemini', 'Cancer', 'Aquarius', 'Pisces', 'Aries', 'Taurus', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Sagittarius', 'Capricorn'];
+    const zodiac = $("#zodiac").val();
+    //const zodiac = [];
       let results = [];
-      if (zodiac.includes("Gemini"|| "Cancer")) {
+      if (zodiac.includes("Gemini") || (zodiac.includes("Cancer")) || (zodiac.includes("Leo")) || (zodiac.includes("Virgo"))){
         console.log("Gemini")
         $(".javascript").toggle();
-      } else if (zodiac.includes("Aquarius" || "Pisces")) {
-        console.log("Aquarius")
+      } else if (zodiac.includes("Aquarius") || (zodiac.includes("Pisces")) || (zodiac.includes("Aries")) || (zodiac.includes("Taurus"))){
         $(".python").toggle();
-      } else if (zodiac.includes("Libra")) {
-        console.log("Libra")
+      } else if (zodiac.includes("Libra") || (zodiac.includes("Scorpio")) || (zodiac.includes("Sagittarius")) || (zodiac.includes("Capricorn"))){
         $(".ruby").toggle();
       }
+      })
     })
-  });
+
+ 
+  // else if (zodiac.includes("Libra") || ("Scorpio") || ("Sagittarius") || ("Capricorn")) {
+    // console.log("Libra")
+    // $(".ruby").toggle();
+
+
 
 
 // UI logic
@@ -63,4 +68,6 @@ $(document).ready(function() {
 
 // || zodiac.includes("Pisces") || zodiac.includes("Aries") || zodiac.includes("Taurus")){
 
-// ("Scorpio"), ("Sagittarius"), ("Capricorn")
+
+
+//'Gemini', 'Cancer', 'Aquarius', 'Pisces', 'Aries', 'Taurus', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Sagittarius', 'Capricorn'

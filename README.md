@@ -13,7 +13,7 @@
 
 ## Description
 
-This is an Epicodus student project that showcases what I have learned using Javascript and JQuery. This project is a fun user friendly webpage. Feel free to reach out to me with any questions, commits, or concerns. Email me at britwallace888@gmail.com._
+This is an Epicodus student project that showcases what I have learned using Javascript and JQuery. This project is a fun user friendly webpage. Feel free to reach out to me with any questions, commits, or concerns. Email me at britwallace888@gmail.com. 
 
 ## Setup/Installation Requirements
 
@@ -22,8 +22,6 @@ This is an Epicodus student project that showcases what I have learned using Jav
 
 ## Known Bugs
 
-* Having trouble linking the if/else response with the submit event. 
-* All buttons suggest Javascript. 
 * My first question is floating in an unwanted behavior.
 
 ## License
